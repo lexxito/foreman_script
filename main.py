@@ -122,7 +122,7 @@ def main():
     requests.put('http://' + data_file['ip'] + '/config_templates/' + str(id_template) + '/',
               data=json.dumps(template), headers=headers)
 
-"""
+
     # import puppets
     print 'import puppets...'
     puppets = requests.get('http://' + data_file['ip'] + '/puppetclasses/import_environments?proxy='+str(id_proxy)+'-' +
@@ -132,7 +132,6 @@ def main():
     prod = soup.find(id="changed_new_production")
     data = {'changed[new][development]': dev['value'], 'changed[new][production]': prod['value']}
     requests.post('http://' + data_file['ip'] + '/puppetclasses/obsolete_and_new', data)
-  """
 
 if __name__ == "__main__":
     main()
