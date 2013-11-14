@@ -1,0 +1,10 @@
+ip : 160.85.4.65
+proxy_name : thor
+proxy_address : https://foreman.cloudcompdev.lab:8443/
+domain_name : cloudcomplab.dev
+architecture_name : x86_64
+media_name : Foreman Mirror
+media_path : http://foreman.cloudcompdev.lab:3142/ubuntu
+operating_system : Ubuntu 13.04
+os_family : Debian
+os_release : raring
