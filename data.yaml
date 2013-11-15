@@ -8,3 +8,4 @@ media_path : http://foreman.cloudcompdev.lab:3142/ubuntu
 operating_system : Ubuntu 13.04
 os_family : Debian
 os_release : raring
+create_new_operating_system : n
